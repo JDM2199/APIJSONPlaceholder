@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('https://carballar.com/wp-content/uploads/2021/04/blog-portada-890x445-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+.search-container {
+    margin: 20px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.post {
+    background: linear-gradient(135deg, #ff6b6b, #f06595);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    text-align: left;
+    color: #fff;
+}
+.post h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #fff;
+}
+.post p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #eee;
+}
